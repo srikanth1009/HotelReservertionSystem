@@ -1,12 +1,15 @@
 package com.bridzelabz;
+/**
+ * Purpose - Implementation of setters and getters
+ */
 public class Hotel {
-	private String hotelName;
+    private String hotelName;
     private String customerType;
     private int hotelRegularRate;
     private int hotelWeekendRate;
     private int hotelStarRating;
 
-    public Hotel(String hotelName,String customerType, int hotelRegularRate,int hotelWeekendRate,int hotelStarRating){
+    public Hotel(String hotelName,String customerType, int hotelRegularRate,int hotelWeekendRate, int hotelStarRating){
         this.hotelName = hotelName;
         this.customerType = customerType;
         this.hotelRegularRate = hotelRegularRate;
@@ -45,6 +48,7 @@ public class Hotel {
     public void setHotelWeekendRate(int hotelWeekendRate){
         this.hotelWeekendRate = hotelWeekendRate;
     }
+
     public int getHotelStarRating(){
         return hotelStarRating;
     }
